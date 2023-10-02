@@ -1,0 +1,7 @@
+Security wise:
+a. For docker image, we can add snyk/trivy/some image scanner tool for checking vulnerabilities
+b. Can create UBI image for Ruby base which inturn will have some security related things which are baked/hardend ruby image
+c. Github actions can have steps/jobs invovles to scan docker image and even scan for github repo
+
+Observability wise:
+a. Can setup some monitoring tools like prometheus/grafana to monitor/alert clusters status/metrics 
