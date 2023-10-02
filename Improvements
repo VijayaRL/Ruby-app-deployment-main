@@ -5,3 +5,6 @@ c. Github actions can have steps/jobs invovles to scan docker image and even sca
 
 Observability wise:
 a. Can setup some monitoring tools like prometheus/grafana to monitor/alert clusters status/metrics 
+
+Ruby Webserver Improvements:
+a. Can error handling logic
