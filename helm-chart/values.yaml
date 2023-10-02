@@ -1,0 +1,7 @@
+name: ruby-app
+
+replicas: 3
+
+image:
+  name: vijayalakshman/ruby-app
+  tag: latest
