@@ -32,6 +32,7 @@ Create ruby namespace
 
 ```
 kubectl create ns ruby-app
+
 ```
 
 Create docker secret
@@ -84,6 +85,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2
 Access ArgoCD server via port-forwarding
 
 ```
+kubectl get po -n argocd
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```
 
